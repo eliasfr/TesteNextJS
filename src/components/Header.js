@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "/src/components/media/Logo";
-import MoreIcon from "/src/components/icons/MoreIcon";
-import NextpayIcon from "/src/components/icons/NextpayIcon";
+import Logo from "./media/Logo";
+import MoreIcon from "./icons/MoreIcon";
+import NextpayIcon from "./icons/NextpayIcon";
 
 function Header() {
   return (
