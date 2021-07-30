@@ -1,3 +1,12 @@
+import Link from "next/link";
+
 export default function PostPage() {
-  return <div>Post</div>;
+  return (
+    <div>
+      Ola Mundo.{" "}
+      <Link href="/">
+        <a>Voltar</a>
+      </Link>
+    </div>
+  );
 }
